@@ -23,11 +23,17 @@ my_click(Xpercent, Ypercent){
 Run ByWave.exe ; You have to add ByWave.exe to your PATH
 WinWaitActive, ByWave
 WinGetPos, , , Width, Height, A ; A means current window
+Sleep, 100
 my_click(0.5, 0.313)
+Sleep, 100
 my_click(0.5, 0.824)
+Sleep, 100
 my_click(0.956, 0.077)
+Sleep, 100
 my_click(0.5, 0.967)
+Sleep, 100
 my_click(0.5, 0.802)
+Sleep, 100
 WinClose, ByWave ; You can remove this line if you wish
 Return
 
@@ -37,7 +43,10 @@ Return
 Run ByWave.exe
 WinWaitActive, ByWave
 WinGetPos, , , Width, Height, A
+Sleep, 100
 my_click(0.061, 0.077)
+Sleep, 100
 my_click(0.5, 0.313)
+Sleep, 100
 WinClose, ByWave
 Return
