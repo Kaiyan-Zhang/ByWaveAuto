@@ -10,7 +10,7 @@ ByWaveAuto is based on AutoHotKey, which is a extremely powerful auto-tool runni
 - Run the release file
 - Press Ctrl+I to auto-start the "global-America-Cogent" proxy
 - Press Ctrl+K to stop the proxy
-![https://github.com/Kaiyan-Zhang/ByWaveAuto/blob/master/HowToUse.gif]
+![image](https://github.com/Kaiyan-Zhang/ByWaveAuto/blob/master/HowToUse.gif)
 ## Everything is customizable
 - Download and install the AutoHotKey from their official website, 
 - Right-click the *.ahk file then choose "edit script"
