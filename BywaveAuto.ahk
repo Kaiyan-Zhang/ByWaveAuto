@@ -50,3 +50,27 @@ my_click(0.5, 0.313)
 Sleep, 100
 WinClose, ByWave
 Return
+
+;toggleProxy
+;I made this because there are many times I found that
+;the internet is disconnected
+;and I found stopping the Proxy is useful
+;but toggle the proxy every is extremely annoying
+;so I made this
+^h::
+Send, #i
+Sleep, 1000
+Send, proxy
+Sleep, 200
+Send, {Space} ;Attention, I made this because I'm using Chinese-input method
+Send, {BackSpace}
+Sleep, 200
+Send, {Down}
+Sleep, 200
+Send, {Enter}
+Sleep, 500
+Send, {Tab}
+Send, {Tab}
+Sleep, 200
+Send, {Space}
+Return
