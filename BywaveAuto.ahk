@@ -57,19 +57,23 @@ Return
 ;and I found stopping the Proxy is useful
 ;but toggle the proxy every is extremely annoying
 ;so I made this
-^h::
+^u::
 Send, #i
 Sleep, 1000
 Send, proxy
-Sleep, 200
+Sleep, 300
 Send, {Space} ;Attention, I made this because I'm using Chinese-input method
+Sleep, 300
+Send, {Space}
+Sleep, 300
 Send, {BackSpace}
-Sleep, 200
+Sleep, 300
 Send, {Down}
-Sleep, 200
+Sleep, 300
 Send, {Enter}
 Sleep, 500
 Send, {Tab}
+Sleep, 100
 Send, {Tab}
 Sleep, 200
 Send, {Space}
