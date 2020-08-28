@@ -19,7 +19,7 @@ my_click(Xpercent, Ypercent){
 ; !p means Alt+P
 
 ; Set start short cut end with ::
-^i:: ; Here I use Ctrl+I
+RCtrl & i:: ; Here I use Right-Ctrl+I
 Run ByWave.exe ; You have to add ByWave.exe to your PATH
 WinWaitActive, ByWave
 WinGetPos, , , Width, Height, A ; A means current window
@@ -38,8 +38,8 @@ WinClose, ByWave ; You can remove this line if you wish
 Return
 
 ; Set stop short cut
-; Here I use Ctrl+K
-^k::
+; Here I use Right-Ctrl+K
+RCtrl & k::
 Run ByWave.exe
 WinWaitActive, ByWave
 WinGetPos, , , Width, Height, A
@@ -57,7 +57,7 @@ Return
 ;and I found stopping the Proxy is useful
 ;but toggle the proxy every is extremely annoying
 ;so I made this
-^u::
+RCtrl & u::
 Send, #i
 Sleep, 1000
 Send, proxy

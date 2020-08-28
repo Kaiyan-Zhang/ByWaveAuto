@@ -8,9 +8,13 @@ ByWaveAuto is based on AutoHotKey, which is a extremely powerful auto-tool runni
 ## How to use
 - Add the ByWave.exe to your PATH, you can just press Win+I then search "path"
 - Run the release file
-- Press Ctrl+I to auto-start the "global-America-Cogent" proxy
-- Press Ctrl+K to stop the proxy
-- Press Ctrel+U to check if you need to toggle the Windows proxy
+- Press Right_Ctrl+I to auto-start the "global-America-Cogent" proxy
+- Press Right_Ctrl+K to stop the proxy
+- Press Right_Ctrel+U to check if you need to toggle the Windows proxy
+## Auto Start
+Anything in C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp will auto-start, 
+so you can put the .ahk, .exe, or even link file of them into the folder. 
+I recommend you to install the autoHotKey in your PC and put the link of .ahk file into the folder. 
 ## Everything is customizable
 - Download and install the AutoHotKey from their official website, 
 - Right-click the *.ahk file then choose "edit script"
